@@ -242,7 +242,7 @@ public class WeatherActivity extends AppCompatActivity {
         carwashText.setText(carWash);
         sportText.setText(sport);
         weatherLayout.setVisibility(View.VISIBLE);
-        Intent intent = new Intent(this, AutoUpdateService.class);
-        startActivity(intent);
+//        Intent intent = new Intent(this, AutoUpdateService.class);
+//        startActivity(intent);
     }
 }
